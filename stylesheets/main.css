@@ -1,0 +1,34 @@
+header {
+    height: 30px;
+    background-color: #2A3038;
+    color: white;
+}
+
+nav {
+    background-color: lightblue;
+    color: white;
+}
+
+.art_museum {
+    height: 33%;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+div {
+    background-color: gray;
+    color: white;
+}
+
+img {
+    padding: 10px;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+
+.Landmarks {
+    background-color: white;
+    color: white;
+}
