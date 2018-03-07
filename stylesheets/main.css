@@ -1,34 +1,56 @@
 header {
-    height: 30px;
+    padding: 2% 2% 2% 2%;
     background-color: #2A3038;
-    color: white;
 }
 
-nav {
-    background-color: lightblue;
+button {
+  float: right;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+h1, h2, h3, p {
+  font-family: helvetica;
+  color: white;
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+    background-color: #163f82;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+li {
+    display: inline;
+    padding-right: 13%;
+    font-family: helvetica;
     color: white;
 }
 
 .art_museum {
-    height: 33%;
+    height: 45%;
     background-image: url(../images/1.jpg);
     background-size: cover;
-    color: white;
+    background-position: center;
 }
 
 div {
-    background-color: gray;
+    padding: 1%, 2%, 2%, 1%;
+    background-color: #2A3038;
     color: white;
 }
 
-img {
-    padding: 10px;
-    height: 300px;
-    width: 30%;
-    float: left;
+table {
+  max-width: 150px;
 }
 
 .Landmarks {
+    padding: 1%, 2%, 2%, 1%;
+    color: black;
     background-color: white;
-    color: white;
 }
