@@ -4,6 +4,7 @@ body {
     text-justify: left;
 }
 
+
 .wrapper {
     max-width: auto;
     display: grid;
@@ -78,7 +79,7 @@ header h1 {
     font-size: 1.5em;
     padding-left: 1em;
     padding-top: 2%;
-    align-content: center;
+    align-content: left;
 }
 
 header p {
