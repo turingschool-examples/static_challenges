@@ -1,0 +1,78 @@
+.container {
+  display: grid;
+  /* grid-template-rows: 50px 50px 315px 140px 160px 2fr; */
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 2px;
+}
+
+.item1 {
+  background: rgb(26, 26, 26);
+  grid-column: span 7;
+  height: 70px;
+  color: white;
+  text-align: left;
+  font-size: 35px;
+}
+
+.item2{
+  background: green;
+  color: white;
+  font-size: 20;
+  text-align: center
+}
+.item3{
+  background: darkblue;
+  grid-column: span 3;
+  height: 70px;
+  color: white;
+  text-align: center;
+}
+.item4{
+  background: darkblue;
+  grid-column: span 2;
+  color: white;
+  text-align: center;
+}
+.item5{
+  background: darkblue;
+  grid-column: span 3;
+  color: white;
+  text-align: center;
+}
+.item6{
+  grid-column: span 8;
+  height: 480px;
+  background-size: cover;
+  background-image: url("../images/dam.png");
+}
+.item7{
+  background: rgb(26, 26, 26);
+  grid-column: span 8;
+  height: 180px;
+  color: whitesmoke;
+  text-align: center;
+}
+.item8{
+  grid-column: span 3;
+  height: 300px;
+  background-image: url("../images/2.jpg");
+  background-size: cover;
+}
+.item9{
+  grid-column: span 2;
+  height: 300px;
+  background-image: url("../images/5.jpg");
+  background-size: cover;
+}
+.item10{
+  grid-column: span 3;
+  height: 300px;
+  background-image: url("../images/6.jpg");
+  background-size: cover;
+}
+.footer {
+  background: rgb(26, 26, 26);
+  grid-column: span 8;
+  height: 65px;
+  color: white;
+}
