@@ -1,0 +1,36 @@
+.body-border {
+  border-width: thin;
+  border-color: black;
+}
+
+.body-wrapper {
+  border-width: medium;
+  border-color: white;
+}
+
+.header {
+  float: left;
+  background-color: black;
+  width: 800px;
+  height: 48px;
+}
+
+.header-text {
+  line-height: 200%;
+  text-decoration: none;
+  font-size: 22px;
+  color: #e6e6e6;
+}
+
+.header-right {
+  float: left;
+  background-color: #4CAF50;
+  padding: 15px 23px;
+}
+
+.header-right a {
+  font-size: small;
+  text-align: left;
+  text-decoration: none;
+  color: #e6e6e6;
+}
