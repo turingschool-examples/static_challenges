@@ -1,29 +1,23 @@
 .body-border {
-  border-width: thin;
+  border-width: 2px;
   border-color: black;
+  border-style: solid;
 }
 
 .body-wrapper {
-  border-width: medium;
-  border-color: white;
-}
+  border: 2px solid white;
 
-.header {
-  float: left;
-  background-color: black;
-  width: 800px;
-  height: 48px;
 }
 
 .header-text {
   line-height: 200%;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 1.5rem;
   color: #e6e6e6;
 }
 
 .header-right {
-  float: left;
+  float: right;
   background-color: #4CAF50;
   padding: 15px 23px;
 }
@@ -33,4 +27,38 @@
   text-align: left;
   text-decoration: none;
   color: #e6e6e6;
+}
+
+.topnav {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  /* height: 10%; */
+  position: relative;
+  background-color: #1c4c7e;
+}
+
+.topnav li {
+  color: #1c4c7e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover {
+  background-color: #1c4c7e;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1c4c7e;
+  color: white;
+}
+
+.main-paragraph {
+  background-color: black;
+
+
 }
