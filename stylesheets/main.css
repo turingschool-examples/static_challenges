@@ -34,7 +34,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
   /* height: 10%; */
   position: relative;
   background-color: #1c4c7e;
@@ -57,8 +56,19 @@
   color: white;
 }
 
+div.museum-image {
+    margin: inherit
+
+		background-image: url("./../images/1.jpg");
+    width: 100%;
+		height: auto;
+}
+
 .main-paragraph {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   background-color: black;
-
-
+  margin: 0;
 }

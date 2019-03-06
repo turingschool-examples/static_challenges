@@ -49,13 +49,15 @@ h3 {
 
 
 main {
-  background-image: url("./../images/1.jpg");
+	height: 300px;
 }
 
-span {
-	font-size: 20px;
-	color: white;
+.museum-image {
+		background-image: url("./../images/1.jpg");
+		height: auto;
+    width: auto;
 }
+
 
 /* ol, ul {
 	list-style: none;
