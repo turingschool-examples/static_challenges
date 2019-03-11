@@ -76,15 +76,20 @@ div.museum-image {
 }
 
 .column-holders {
+  vertical-align: top;
+  width: 100%;
   background-color: #e6e6e6;
-  display: flex;
-  justify-content: center;
   padding-top: 2rem;
-  padding-left: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .columns  {
-  width: 900px;
-  justify-content: space-around;
-  display: flex;
+  display: inline-flex;
+}
+
+.larimer-square {
+  width: 100%;
+  background-image: url("./images/2.jpg");
 }
