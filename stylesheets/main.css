@@ -30,6 +30,8 @@
 }
 
 .topnav {
+  padding-top:  1em;
+  padding-bottom: 1em;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -42,7 +44,6 @@
 .topnav li {
   color: #1c4c7e;
   text-align: center;
-  text-decoration: none;
   font-size: 1rem;
 }
 
@@ -54,11 +55,12 @@
 .topnav a.active {
   background-color: #1c4c7e;
   color: white;
+  text-decoration: none;
+
 }
 
 div.museum-image {
-    margin: inherit
-
+    margin: inherit;
 		background-image: url("./../images/1.jpg");
     width: 100%;
 		height: auto;
@@ -71,4 +73,18 @@ div.museum-image {
   padding-bottom: .5em;
   background-color: black;
   margin: 0;
+}
+
+.column-holders {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.columns  {
+  width: 900px;
+  justify-content: space-around;
+  display: flex;
 }

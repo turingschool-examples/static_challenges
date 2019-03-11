@@ -44,19 +44,25 @@ header {
 
 h3 {
   margin: 0;
+	color: white;
 
+}
+
+footer {
+	padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: black;
+  margin: 0;
 }
 
 
 main {
-	height: 300px;
+	margin: inherit;
 }
 
-.museum-image {
-		background-image: url("./../images/1.jpg");
-		height: auto;
-    width: auto;
-}
+
 
 
 /* ol, ul {
