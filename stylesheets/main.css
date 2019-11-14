@@ -7,3 +7,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  text-align: left;
+  display: block;
+}
