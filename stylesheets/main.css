@@ -4,7 +4,7 @@ body {
   width: 100%;
   background-position: right;
   background-attachment: fixed;
-  background-size: 1500px;
+  background-size: 1440px;
 }
 
 .title {
@@ -16,7 +16,7 @@ body {
   display: inline-block;
 }
 
-header {
+.topbar {
   height: 42px;
   width: 50%;
   background-color: black;
@@ -24,7 +24,7 @@ header {
   right: 0;
 }
 
-aside {
+.sidebar {
   height: 100%;
   width: 50%;
   background-color: black;
@@ -41,14 +41,37 @@ aside {
   padding-top: 16px;
   display: inline-block;
   float: right;
-  vertical-align: middle;
 }
 
 .navbar {
   color: orange;
-  height: 20px;
+  height: 2000px;
   width: 50%;
   right: 0;
-  top: 42px;
+  bottom: 0;
   position: fixed;
+  text-align: center;
+}
+
+.navbutton {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.gallery img {
+  width: 25%;
+  height: auto;
+  display: inline;
+}
+
+.imgdesc {
+  text-align: left
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
