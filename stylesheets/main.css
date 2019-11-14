@@ -1,9 +1,8 @@
 body {
   background-image: url("../images/1.jpg");
   background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100%;
+  background-position: right;
   background-attachment: fixed;
   background-size: 1500px;
 }
@@ -11,19 +10,45 @@ body {
 .title {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 18px;
+  padding: 12px;
   text-align: left;
-  opacity: 1;
-  /* display: block; */
-  /* z-index: -1;
-  position: relative; */
+  display: inline-block;
 }
 
 header {
-  height: 40px;
+  height: 42px;
   width: 50%;
-  background-color: #383838;
+  background-color: black;
   position: fixed;
   right: 0;
+}
+
+aside {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  opacity: 0.4;
+  right: 0;
+  position: fixed;
+}
+
+.login {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  padding-top: 16px;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+}
+
+.navbar {
+  color: orange;
+  height: 20px;
+  width: 50%;
+  right: 0;
+  top: 42px;
+  position: fixed;
 }
