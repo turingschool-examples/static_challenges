@@ -11,8 +11,8 @@ body {
 .title {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 18px;
+  padding: 12px;
   text-align: left;
   opacity: 1;
   /* display: block; */
@@ -21,9 +21,18 @@ body {
 }
 
 header {
-  height: 40px;
+  height: 42px;
   width: 50%;
   background-color: #383838;
   position: fixed;
   right: 0;
+}
+
+aside {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  opacity: 0.4;
+  right: 0;
+  position: fixed;
 }
