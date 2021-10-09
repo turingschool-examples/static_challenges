@@ -51,6 +51,8 @@ img {
 
 .pic2 {
         position: absolute;
-        top: 20%;
-        right: 20%;
+  top: 20px;
+  right: 10;
+  width: 750px;
+  height: 500px;
     }
