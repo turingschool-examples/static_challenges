@@ -1,0 +1,31 @@
+h1 {
+  padding: 10px 10px 10px 10px;
+  height: 420 px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+h2 {
+  padding: 8px 8px 8px 8px;
+  height: 400 px;
+  width: 100%;
+  background-color: rgba(25, 25, 25, 0.551);
+  text-align: right;
+}
+
+h3 {
+  background-color: black;
+  text-align: left;
+  font-size: 20px;
+}
+
+p {
+  background-color: red;
+  font-size: 15px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  font-size: 10px;
+}
