@@ -1,0 +1,61 @@
+header {
+  background: maroon;
+  height: 40px;
+  padding: 25px;
+}
+
+header h1 {
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+section h2 {
+  font-size: 25px;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+section h3 {
+  float: left;
+  font-size: 18px;
+
+}
+
+header nav {
+  float: right;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 20;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+section {
+  float: left;
+  margin: 25px
+}
+
+div {
+  background: #403838;
+  height: 50px
+}
+
+div nav ul li {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  float: right;
+  padding: 0 25px;
+}
+
+footer p {
+    float: left;
+    font-size: 18px;
+    margin: 25px;
+}
