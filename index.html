@@ -5,12 +5,184 @@
     <title>5280 Landmarks</title>
     <link rel="stylesheet" href="stylesheets/reset.css" title="text/css" />
     <link rel="stylesheet" href="stylesheets/main.css" title="text/css" />
+    <style>
+      html {
+        background-image: url(images/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+      }
+      body {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: white;
+        font-family: sans-serif;
+        font-stretch: condensed;
+        font-size: 10px;
+        position: fixed;
+        right: 0;
+        left: 50%;
+        height: 100%;
+      }
+      .header {
+        box-sizing: content-box;
+        background-color: rgba(36, 36, 36, 1);
+        display: inline-flex;
+        z-index: 1;
+        width: 100%;
+        padding: 10px;
+      }
+      .header h1 {
+        text-align: left;
+        font-size: 24px;
+        padding-left: 10px;
+      }
+      .header .login-container {
+        float: right;
+        margin-left: 65%;
+      }
+      .header .login-container button {
+        float: right;
+        padding: 6px;
+        background-color: rgba(40, 40, 40, 1);
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .navbar ul {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        margin-left: 33px;
+        margin-right: 33px;
+      }
+
+      .main {
+        padding: 12px 20px;
+      }
+      .main h1 {
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 3px;
+      }
+
+      .row {
+        width: 100%;
+        padding: 7px;
+        display: inline-flex;
+        justify-content: space-evenly;
+      }
+      .column {
+        width: 33.33%;
+        padding: 8px;
+        align-content: center;
+      }
+      .column img {
+        border: 1px solid sienna;
+        height: 160px;
+        min-width: 215px;
+        width: 30%;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+      }
+      .column h3 {
+        padding-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .footer p {
+        padding: 10px;
+      }
+
+    </style>
   </head>
   <body>
+    <div id="container">
+      <div id="header"></div>
+      <div class="header">
+        <h1>5280 Landmarks</h1>
+          <div class="login-container">
+            <form action="/action_page.php">
+              <button type="submit">Login</button>
+            </form>
+          </div>
+      </div>
 
+        <div id="navbar">
+        <div class="navbar">
+          <ul>
+            <li>Building</li>
+            <li>Art</li>
+            <li>Featured</li>
+          </ul>
+        </div>
+        </div>
+
+      <div id="body">
+      <section class="main">
+        <h1>Denver Art Museum</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet, quis idque munere est ex.
+          Eos id soluta meliore menandri, sed ex graeci prompta sapientem.
+          Cum in verterem partiendo, quod partiendo principes vix et.
+          Ne eam virtute abhorreant.
+          At qui doming nemore mediocritatem, ei pri bonorum blandit,
+          vim elitr recusabo salutatus eu.</p>
+        <br>
+        <p>Mea adhuc persecuti in, dolorum mentitum ullamcorper his ut.
+          Graeci scriptorem cum ea, an ignota signiferumque nec.
+          No dicunt sanctus moderatius sed, meliore inermis ei mea.
+          Utinam impedit maiestatis sea ad, quis efficiendi eu mel,
+          ea solet placerat phaedrum vis. Et vix causae aliquam,
+          commodo blandit imperdiet ex his.</p>
+        <br>
+        <p>Duo an eleifend omittantur, te sint civibus recusabo eos.
+          An ius corpora definiebas cotidieque.
+          Eu pri reque sapientem contentiones, fierent conclusionemque mei in.
+          Saepe veniam ne mei, ut facilisi omittantur nec.</p>
+        <br>
+        <p>Nam ad quas consul salutandi, sea ad verterem quaestio.
+          Mei ea quot dictas. Eam choro eloquentiam eu, vim cu facete scriptorem.
+          Mel at latine veritus.</p>
+      </section>
+
+      <div class="row">
+        <div class="column">
+          <h3>Larimer Square</h3>
+          <img src="images/2.jpg" alt="Larimer Square">
+        </div>
+        <div class="column">
+          <h3>Millenium Bridge</h3>
+          <img src="images/5.jpg" alt="Millenium Bridge">
+        </div>
+        <div class="column">
+          <h3>Molly Brown House</h3>
+          <img src="images/6.jpg" alt="Molly Brown House">
+        </div>
+      </div>
+      </div>
+      <br>
+
+      <div id="footer">
+      <div class="footer">
+        <p>Alia utinam maiorum pro te, eum ex sonet putent discere.
+          Mea cu possit forensibus comprehensam. Mel te primis commodo,
+          nibh labore nostrum ei mel. Ex vix adolescens suscipiantur,
+          malorum iuvaret usu id. At mea lobortis pertinacia,
+          scripta sententiae et mei, sumo partem pro ex.
+          Nam movet facete ex, eos rebum nulla qualisque ea,
+          vis malis clita efficiantur ut. At vel lorem paulo soluta,
+          ancillae quaestio no quo, id vim blandit voluptatum.</p>
+      </div>
+      </div>
+      <br>
+    </div>
   </body>
 </html>
-
-
-
-
