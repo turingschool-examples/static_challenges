@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: #be0909;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+/* manipulates the three links in the second header */
+nav {
+  text-align: right;
+  width: 100%;
+  background: #3d3838;
+  padding: 10px;
+}
+
+/* changes the link colors in the second header */
+a.one:link {color:white;}
+a.one:visited {color:white;}
+a.one:hover {color:white;}
+
+div {
+  float: right;
+}
+
+
+footer {
+  background-color: #3d3838;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
