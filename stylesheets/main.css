@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #A00;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+}
+
+.flex-title {
+  display: flex;
+  flex-direction: column;
+}
+
+a.flex-title {
+  font-size: small;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #333;
+  color: #fff;
+}
+
+nav a {
+  padding: 5px;
+}
+
+.flex-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.flex-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.flex-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #000;
+} 
+
+h1 {
+  padding: 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
