@@ -1,6 +1,7 @@
-head { 
-    color: white;
+h1 { 
+    color: rgb(255, 255, 255);
     background-color: red;
+    font-size: larger;
 }
 
 body {
@@ -10,33 +11,41 @@ body {
 
 a {
     text-align: right;
+    font-size: medium;
 }
 
 .img-style1 {
-    width: 75%;
-    text-align: left;
+    width: 77%;
+    float: left;
 }
 
 body img {
-    width: 20%;
-    text-align: right;
-}
-
-h1 {
-    color: black;
-    text-align: left;
+    width: 18%;
+    float: right;
 }
 
 h2 {
     color: black;
-    text-align: right;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+h3 {
+    border: 15;
+    color: black;
+    float: center;
+    text-align: left;
+    font-weight: bold;
 }
 
 p {
     color: black;
+    width: 78%;
 }
 
 .footer {
     color: white;
     background-color: black;
+    width: 78%;
 }
